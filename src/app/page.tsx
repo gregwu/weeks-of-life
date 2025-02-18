@@ -41,7 +41,7 @@ export default function WeeksOfLife() {
       <Card>
         <CardContent>
           <h1 className="text-xl font-bold mb-4 text-center">Weeks of {YEARS} Years Life</h1>
-          <Input
+          Birthdate: <Input
             type="date"
             value={birthdate}
             onChange={(e: React.ChangeEvent<HTMLInputElement>) => setBirthdate(e.target.value)}
