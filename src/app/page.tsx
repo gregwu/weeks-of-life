@@ -13,6 +13,21 @@ export default function WeeksOfLife() {
   const [birthdate, setBirthdate] = useState("");
   const [weeksLived, setWeeksLived] = useState(0);
 
+  // Load the birthdate from local storage when the component mounts
+  useEffect(() => {
+    const savedBirthdate = localStorage.getItem('birthdate');
+    if (savedBirthdate) {
+      setBirthdate(savedBirthdate);
+    }
+  }, []);
+
+  // Save the birthdate to local storage whenever it changes
+  useEffect(() => {
+    if (birthdate) {
+      localStorage.setItem('birthdate', birthdate);
+    }
+  }, [birthdate]);
+
   useEffect(() => {
     if (birthdate) {
       const birthDateObj = new Date(birthdate);
