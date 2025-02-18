@@ -11,11 +11,11 @@
   }
   
   .filled,  .bg-blue-500 {
-    background-color: #3b82f6; /* Tailwind blue-500 */
+    background-color: #e3e4e7; /* Tailwind blue-500 */
   }
   
   .empty, .bg-gray-200 {
-    background-color: #e5e7eb; /* Tailwind gray-200 */
+    background-color: #11c435; /* Tailwind gray-200 */
   }
   
 
