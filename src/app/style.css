@@ -1,0 +1,54 @@
+.grid div.border {
+    width: 5px;
+    height: 5px;
+    border: 1px solid #ccc;
+    margin: 1px;
+    display: inline-block;
+  }
+
+   .flex {
+    display: flex;
+  }
+  
+  .filled,  .bg-blue-500 {
+    background-color: #3b82f6; /* Tailwind blue-500 */
+  }
+  
+  .empty, .bg-gray-200 {
+    background-color: #e5e7eb; /* Tailwind gray-200 */
+  }
+  
+
+ input {
+    width: 130px;
+    height: 100%;
+    border: 1px solid #ccc;
+    margin: 1px;
+    display: inline-block;
+    padding-left: 10px;
+ }
+
+ .font-bold {
+    font-weight: bold;
+ }
+
+ .items-center {
+    align-items: center;
+    justify-content: center;
+ }
+
+ .text-center {
+    text-align: center;
+ }
+
+ .text-xl {
+    font-size: 1.5rem;
+ }
+
+ .mb-4 {
+    margin-bottom: 1rem;
+ }
+
+ .p-6 {
+    padding: 1.5rem;
+ }
